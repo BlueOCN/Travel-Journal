@@ -7,7 +7,7 @@ function Card(props) {
             <div className="card--info">
                 <div className="info--location">
                     <span className="material-symbols-outlined">location_on</span>
-                    <h2 className="location--title">{props.items.country} </h2>
+                    <h2 className="location--title">{props.items.country.toUpperCase()} </h2>
                     <h3 className="location--link">View on Google Maps</h3>
                 </div>
                 <h1 className="info--title">{props.items.location}</h1>
