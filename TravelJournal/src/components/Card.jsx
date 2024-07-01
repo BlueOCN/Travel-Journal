@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 function Card(props) {
     return (
         <div className="card">
-            <img src={`../src/assets/${props.items.img}`} alt="img" />
+            <img src={props.items.img} alt="img" />
             <div className="card--info">
                 <div className="info--location">
                     <span className="material-symbols-outlined">location_on</span>

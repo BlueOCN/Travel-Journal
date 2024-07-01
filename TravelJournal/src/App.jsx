@@ -3,7 +3,7 @@ import Card from './components/Card'
 import './App.css'
 import data from './data'
 
-console.log(data)
+// console.log(data)
 
 function App() {
 
